@@ -1,0 +1,163 @@
+@media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+  }
+
+  /* N A V B A R */
+  /*-----------------------------------------------------------*/
+  .navigasi {
+    width: auto;
+    height: 80px;
+    background-color: #2f61d7;
+  }
+
+  .navbar-nav {
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+  }
+
+  .nav-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin: 8px;
+    letter-spacing: 0.4px;
+  }
+
+  .tombol {
+    width: auto;
+    /* border: 1px solid white; */
+  }
+
+  .tombol1 {
+    width: 100px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .tombol2 {
+    width: 100px;
+    height: 32px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #1750d3;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .logo {
+    width: 128px;
+    height: 42px;
+  }
+
+  /*-----------------------------------------------------------*/
+  /* End of NAVBAR */
+
+  /* H E A D E R */
+  /*-----------------------------------------------------------*/
+
+  .sec-header {
+    /* border: 1px solid black; */
+    background-color: #2f61d7;
+    width: 100%;
+    height: 537px;
+  }
+
+  .sec-header1 {
+    /* border: 1px solid white; */
+    width: 55%;
+    height: 500px;
+    padding: 100px 0 0 0;
+    margin: 0;
+    float: left;
+  }
+
+  .header1 {
+    width: 80%;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 55px;
+  }
+
+  .deskripsi-header {
+    /* border: 1px solid white; */
+    width: 85%;
+    padding-top: 20px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.6px;
+    line-height: 25px;
+  }
+
+  .tombol-header {
+    /* border: 1px solid white; */
+    width: 50%;
+    height: 44px;
+    margin: 30px 0 0 0;
+    padding: 0;
+  }
+
+  .tombol-header1 {
+    width: 30%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    float: left;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    border-radius: 5px;
+  }
+
+  .tombol-header1:hover {
+    background-color: rgba(255, 255, 255, 0.124);
+    transition: ease-out 0.3s;
+  }
+
+  .tombol-header2 {
+    border: 2px solid white;
+    width: 45%;
+    height: 40px;
+    background-color: white;
+    margin: 0;
+    float: left;
+    color: #1750d3;
+    font-weight: 500;
+    margin-left: 20px;
+    letter-spacing: 0.4px;
+    border-radius: 5px;
+  }
+
+  .tombol-header2:hover {
+    background-color: #d6e2ff;
+    border: transparent;
+    transition: ease-out 0.3s;
+  }
+
+  .sec-header2 {
+    /* border: 1px solid white; */
+    width: 45%;
+    padding: 100px 0 0 0;
+    margin: 0;
+    float: left;
+  }
+
+  .gambar1 {
+    margin-left: 50px;
+    justify-content: center;
+  }
+
+  /*-----------------------------------------------------------*/
+  /* End of HEADER */
+}

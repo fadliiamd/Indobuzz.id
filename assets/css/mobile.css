@@ -1,0 +1,175 @@
+@media screen and (max-width: 428px) {
+  * {
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+  }
+
+  /* N A V B A R */
+  /*-----------------------------------------------------------*/
+  .navigasi {
+    height: auto;
+    /* padding: 0; */
+    /* border: 1px solid black; */
+  }
+
+  .navbar-nav {
+    /* padding: 0; */
+    /* justify-content: none; */
+    /* border: 1px solid black; */
+  }
+
+  .collapse {
+    /* border: 1px solid black; */
+  }
+
+  .navbar-collapse {
+    border: none;
+    padding: 10px 0;
+    margin-top: 20px;
+    transition: ease 0.5s;
+    background-color: white;
+    border-radius: 5px;
+    height: auto;
+  }
+
+  .cont-nav {
+    display: block;
+    /* border: 1px solid black; */
+    /* margin: 0; */
+    height: auto;
+    /* padding: 0; */
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+  }
+
+  .nav-burger {
+    /* background-color: white; */
+    color: #2f61d7;
+    border: none;
+  }
+
+  .nav-link {
+    color: #4d4d4d;
+    /* border: 1px solid black; */
+    /* margin: 0; */
+  }
+
+  .tombol-grid {
+    width: 60%;
+  }
+
+  .tombol {
+    /* border: 1px solid black; */
+    height: auto;
+  }
+
+  .tombol1 {
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    border: 1px solid #2f61d7;
+    color: #2f61d7;
+    height: 40px;
+    letter-spacing: 0.6px;
+  }
+
+  .tombol2 {
+    background-color: #2f61d7;
+    margin: 10px 10px 0 10px;
+    width: 95%;
+    color: white;
+    height: 40px;
+    letter-spacing: 0.6px;
+  }
+
+  .logo {
+    margin-left: 10px;
+    width: 70px;
+    height: auto;
+  }
+
+  /*-----------------------------------------------------------*/
+  /* End of NAVBAR */
+
+  /* H E A D E R */
+  /*-----------------------------------------------------------*/
+
+  .sec-header {
+    /* border: 1px solid black; */
+    height: 800px;
+  }
+
+  .sec-header1 {
+    height: 450px;
+    padding-top: 80px;
+    width: 100%;
+    /* border: 1px solid white; */
+  }
+
+  .header1 {
+    width: 95%;
+    margin-left: 2.5%;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+  .deskripsi-header {
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    font-size: 13px;
+    line-height: 18px;
+    /* border: 1px solid white; */
+  }
+
+  .tombol-header {
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 44px;
+    margin: 50px 0 0 0;
+    padding: 0;
+  }
+
+  .tombol-header1 {
+    font-size: 13px;
+    margin-left: 2.5%;
+    width: 95%;
+  }
+
+  .tombol-header1:hover {
+    background-color: rgba(255, 255, 255, 0.124);
+    transition: ease-out 0.3s;
+  }
+
+  .tombol-header2 {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 2.5%;
+    width: 95%;
+  }
+
+  .tombol-header2:hover {
+    background-color: #d6e2ff;
+    border: transparent;
+    transition: ease-out 0.3s;
+  }
+
+  .sec-header2 {
+    /* border: 1px solid white; */
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0;
+    float: left;
+  }
+
+  .gambar1 {
+    margin: 0;
+    width: 90%;
+  }
+
+  /*-----------------------------------------------------------*/
+  /* End of HEADER */
+}
