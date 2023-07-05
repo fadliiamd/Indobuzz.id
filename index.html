@@ -10,6 +10,12 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,14 +23,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/mobile.css" />
+    <link rel="stylesheet" href="assets/css/dropdown.css" />
+    <!-- <link rel="stylesheet" href="assets/css/tablet.css" /> -->
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navigasi">
-      <div class="container">
+      <div class="container cont-nav">
         <img class="logo" src="assets/img/logo.png" alt="" />
         <button
-          class="navbar-toggler"
+          class="navbar-toggler nav-burger"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
@@ -32,29 +41,122 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <img class="tombol-grid" src="assets/img/icons8-menu-64.png" alt="" />
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link" aria-current="page" href="#">Beranda</a>
             <a class="nav-link" href="#">Layanan</a>
             <a class="nav-link" href="#">Cara bergabung</a>
-            <a class="nav-link">Tentang kami</a>
-            <a class="nav-link">Blog</a>
-            <a class="nav-link">Kontak</a>
+            <a class="nav-link" href="">Tentang kami</a>
+            <a class="nav-link" href="">Blog</a>
+            <a class="nav-link" href="">Kontak</a>
           </div>
-        </div>
-        <div class="tombol">
-          <button class="tombol1"></button>
-          <button class="tombol2"></button>
+          <div class="tombol">
+            <button class="tombol1">Daftar</button>
+            <button class="tombol2">Masuk</button>
+          </div>
         </div>
       </div>
     </nav>
     <!-- End of navbar -->
+    <div class="sec-header">
+      <div class="container">
+        <div class="sec-header1">
+          <h1 class="header1">
+            Penyedia Layanan Digital Marketing <span class="oren">Profesional</span>
+          </h1>
+          <p class="deskripsi-header">
+            Salah satu penyedia jasa buzzer profesional terbaik yang ada di indonesia.
+            Selalu mengedepankan kualitas, keamanan, dan kepuasan Anda.
+          </p>
+          <div class="tombol-header">
+            <a href=""><button class="tombol-header1">Eksplore</button></a>
+            <a href=""><button class="tombol-header2">Order Sekarang</button></a>
+          </div>
+        </div>
+        <div class="sec-header2">
+          <img class="gambar1" src="assets/img/header1.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-content">
+      <div class="container">
+        <div class="sec-content1">
+          <div class="kotak1">
+            <div class="sub-kotak1" data-aos="fade-right" data-aos-duration="1000">
+              <img class="icon-kotak" src="assets/img/calendar.png" alt="" />
+              <h3 class="judul-kotak">Berdiri sejak 2011</h3>
+              <p class="p-kotak1">
+                Telah lebih dari 10 tahun berdiri dengan jumlah jam terbang yang tinggi
+              </p>
+            </div>
+            <div class="sub-kotak2" data-aos="fade-right" data-aos-duration="1000">
+              <img class="icon-kotak" src="assets/img/solar_dollar-broken.png" alt="" />
+              <h3 class="judul-kotak">Harga Terjangkau</h3>
+              <p class="p-kotak1">
+                Harga yang sangat efisien dengan kualitas yang terbaik
+              </p>
+            </div>
+          </div>
+          <div class="kotak2">
+            <div class="sub-kotak3" data-aos="fade-down" data-aos-duration="1000">
+              <img class="icon-kotak" src="assets/img/line-md_account.png" alt="" />
+              <h3 class="judul-kotak2">Beragam Kontributor</h3>
+              <p class="p-kotak2">
+                Kami memiliki beragam kontributor yg dapat memenuhi segala kebutuhan anda
+              </p>
+            </div>
+            <div class="sub-kotak4" data-aos="fade-up" data-aos-duration="1000">
+              <img
+                class="icon-kotak"
+                src="assets/img/fluent_people-20-regular.png"
+                style="opacity: 70%"
+                alt=""
+              />
+              <h3 class="judul-kotak">20.000+ Tim Kontributor</h3>
+              <p class="p-kotak1">
+                Kami memiliki asset SDM sangat banyak lebih dari 20.000 kontributor
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="sec-content2">
+          <h2 class="judul-content1">
+            Overview informasi tentang <span class="oren">Indobuzz.id</span>
+          </h2>
+          <p>
+            Kami adalah platform yang menyediakan wadah bagi Anda (Advertise) yang
+            membutuhkan jasa digital marketing (Trending Topik, Branding, Followers, Like,
+            View, dll). Dengan SDM (Kontributor) kami yang mencapai angka 20.000++ orang
+            akan mampu membantu dengan cepat, efektif, dan efisien dalam memenuhi
+            kebutuhan digital marketing yang Anda butuhkan.
+          </p>
+          <p>
+            Telah banyak brand-brand ternama yang menggunakan layanan pada jasa kami,
+            dengan sistem kerja kami yang berkomitmen dalam mengutamakan kepuasan
+            pelanggan membuat kami terus dipercaya untuk memenuhi kebutuhan marketing
+            brand-brand tersebut. Kami menawarkan kualitas, keamanan, hingga menjamin
+            kepuasan anda.
+          </p>
+          <p>
+            Semua layanan yang kami sediakan dapat anda lihat
+            <a href=""><span class="oren">Di sini.</span></a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
