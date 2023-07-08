@@ -24,34 +24,108 @@
     />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/mobile.css" />
-    <link rel="stylesheet" href="assets/css/dropdown.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css" />
     <!-- <link rel="stylesheet" href="assets/css/tablet.css" /> -->
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navigasi">
+    <nav class="navbar navbar-expand-lg navbar-dark navigasi">
       <div class="container cont-nav">
         <img class="logo" src="assets/img/logo.png" alt="" />
         <button
-          class="navbar-toggler nav-burger"
+          class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-target="#main_nav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <img class="tombol-grid" src="assets/img/icons8-menu-64.png" alt="" />
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="#">Beranda</a>
-            <a class="nav-link" href="#">Layanan</a>
-            <a class="nav-link" href="#">Cara bergabung</a>
-            <a class="nav-link" href="">Tentang kami</a>
-            <a class="nav-link" href="">Blog</a>
-            <a class="nav-link" href="">Kontak</a>
-          </div>
+        <div class="collapse navbar-collapse" id="main_nav">
+          <ul class="navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="#">Beranda </a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                Layanan
+              </a>
+              <ul class="dropdown-menu">
+                <!-- Facebook -->
+                <li>
+                  <a class="dropdown-item" href="#"> Facebook &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Jasa like</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa komentar</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa follow</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa view</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa voting/polling</a></li>
+                  </ul>
+                </li>
+                <!-- Tiktok -->
+                <li>
+                  <a class="dropdown-item" href="#"> Tiktok &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Jasa like</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa komentar</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa share</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa follow</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa view</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa vote</a></li>
+                  </ul>
+                </li>
+                <!-- Instagram -->
+                <li>
+                  <a class="dropdown-item" href="#"> Instagram &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Jasa like</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa komentar</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa follow</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa view</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa voting</a></li>
+                  </ul>
+                </li>
+                <!-- Twitter -->
+                <li>
+                  <a class="dropdown-item" href="#"> Twitter &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Jasa like</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa komentar</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa follow</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa view</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa voting/polling</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa trending topik</a></li>
+                  </ul>
+                </li>
+                <!-- Youtube -->
+                <li>
+                  <a class="dropdown-item" href="#"> Youtube &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Jasa like</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa komentar</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa subscribe</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa view</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa live streaming</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa voting/polling</a></li>
+                  </ul>
+                </li>
+                <!-- Marketplace -->
+                <li><a class="dropdown-item" href="#">Marketplace</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                Cara bergabung
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"> Kontributor </a></li>
+                <li><a class="dropdown-item" href="#">Advertiser</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="#">Tentang kami</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          </ul>
+
           <div class="tombol">
             <button class="tombol1">Daftar</button>
             <button class="tombol2">Masuk</button>
@@ -148,6 +222,7 @@
       </div>
     </div>
 
+    <script src="assets/js/multilevel.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
@@ -157,6 +232,7 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+
     <script src="assets/js/main.js"></script>
   </body>
 </html>
