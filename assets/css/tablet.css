@@ -6,58 +6,6 @@
 
   /* N A V B A R */
   /*-----------------------------------------------------------*/
-  .navigasi {
-    width: auto;
-    height: 80px;
-    background-color: #2f61d7;
-  }
-
-  .navbar-nav {
-    justify-content: center;
-    align-items: center;
-    /* border: 1px solid white; */
-    margin: 0 auto;
-  }
-
-  .nav-link {
-    font-size: 14px;
-    font-weight: 400;
-    color: white;
-    margin: 8px;
-    letter-spacing: 0.4px;
-  }
-
-  .tombol {
-    width: auto;
-    /* border: 1px solid white; */
-  }
-
-  .tombol1 {
-    width: 100px;
-    height: 32px;
-    border-radius: 5px;
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    font-size: 14px;
-    font-weight: 600;
-  }
-
-  .tombol2 {
-    width: 100px;
-    height: 32px;
-    margin-left: 10px;
-    border-radius: 5px;
-    border: none;
-    color: #1750d3;
-    font-size: 14px;
-    font-weight: 600;
-  }
-
-  .logo {
-    width: 128px;
-    height: 42px;
-  }
 
   /*-----------------------------------------------------------*/
   /* End of NAVBAR */
@@ -74,7 +22,7 @@
 
   .sec-header1 {
     /* border: 1px solid white; */
-    width: 55%;
+    width: 50%;
     height: 500px;
     padding: 100px 0 0 0;
     margin: 0;
@@ -82,12 +30,12 @@
   }
 
   .header1 {
-    width: 80%;
+    width: 100%;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 500;
     letter-spacing: 0.5px;
-    line-height: 55px;
+    line-height: 40px;
   }
 
   .deskripsi-header {
@@ -102,7 +50,7 @@
 
   .tombol-header {
     /* border: 1px solid white; */
-    width: 50%;
+    width: 90%;
     height: 44px;
     margin: 30px 0 0 0;
     padding: 0;
@@ -127,7 +75,7 @@
 
   .tombol-header2 {
     border: 2px solid white;
-    width: 45%;
+    width: 55%;
     height: 40px;
     background-color: white;
     margin: 0;
@@ -154,10 +102,77 @@
   }
 
   .gambar1 {
-    margin-left: 50px;
+    margin-left: -25px;
     justify-content: center;
   }
 
   /*-----------------------------------------------------------*/
   /* End of HEADER */
+
+  /* C O N T E N T */
+  /*-----------------------------------------------------------*/
+
+  .sec-content {
+    /* border: 1px solid black; */
+  }
+
+  .sec-content1 {
+    /* border: 1px solid black; */
+    height: auto;
+  }
+
+  .kotak1 {
+    /* border: 1px solid black; */
+    margin: 0;
+    width: 160px;
+    height: auto;
+  }
+
+  .sub-kotak1 {
+    /* border: 1px solid black; */
+    width: 150px;
+    height: auto;
+  }
+
+  .sub-kotak2 {
+    /* border: 1px solid black; */
+    width: 150px;
+    height: auto;
+  }
+
+  .icon-kotak {
+    width: 35%;
+  }
+
+  .kotak2 {
+    /* border: 1px solid black; */
+    width: 160px;
+    height: auto;
+  }
+
+  .sub-kotak3 {
+    width: 150px;
+    height: auto;
+  }
+
+  .sub-kotak4 {
+    width: 150px;
+    height: auto;
+  }
+
+  .judul-kotak {
+  }
+
+  .p-kotak2 {
+  }
+
+  .judul-kotak2 {
+  }
+
+  .sec-content2 {
+    /* border: 1px solid black; */
+  }
+
+  .judul-content1 {
+  }
 }
