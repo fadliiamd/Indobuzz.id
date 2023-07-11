@@ -7,7 +7,6 @@
 
 .navbar-nav {
   justify-content: center;
-  align-items: center;
   /* border: 1px solid white; */
   margin: 0 auto;
 }
@@ -64,7 +63,7 @@
 }
 .dropdown-menu .submenu {
   display: none;
-  position: absolute;
+  position: initial;
   left: 100%;
   top: -7px;
 }
