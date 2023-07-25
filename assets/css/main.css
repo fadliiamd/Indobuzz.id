@@ -24,7 +24,7 @@
 p {
   font-size: 14px;
   color: #4d4d4d;
-  line-height: 25px;
+  line-height: 20px;
 }
 
 a {
@@ -54,6 +54,7 @@ a {
 
 .box-testimoni .box-desc p {
   width: 100%;
+  line-height: 25px;
   /* border: 1px solid red; */
 }
 
@@ -296,6 +297,11 @@ a {
   padding-top: 0px;
 }
 
+.sec-content2 p {
+  letter-spacing: 0.4px;
+  line-height: 25px;
+}
+
 .judul-content1 {
   width: 70%;
   font-size: 25px;
@@ -345,6 +351,7 @@ a {
   margin-top: 10px;
   width: 68%;
   color: white;
+  letter-spacing: 0.4px;
 }
 
 .img-ads {
@@ -392,6 +399,8 @@ a {
 
 .desc-kontributor p {
   text-align: justify;
+  letter-spacing: 0.4px;
+  line-height: 25px;
 }
 
 .flow-kontributor {
@@ -572,13 +581,13 @@ a {
   /* border: 1px solid red; */
   height: auto;
   background-color: #fcfcfc;
-  padding: 60px 0;
 }
 
 .sec-advertise .container {
   /* border: 1px solid blue; */
   height: auto;
   display: flex;
+  padding: 61px;
 }
 
 .desc-advertise {
@@ -588,8 +597,9 @@ a {
 }
 
 .desc-advertise h2 {
-  margin-left: 397px;
-  width: 50%;
+  margin-left: 292px;
+  margin-right: 0;
+  width: 60%;
   /* border: 1px solid blue; */
   font-size: 25px;
   letter-spacing: 0.3px;
@@ -601,7 +611,8 @@ a {
 
 .desc-advertise p {
   text-align: justify;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.4px;
+  line-height: 25px;
 }
 
 .flow-advertise {
@@ -754,9 +765,9 @@ a {
 }
 
 .desc-ads2 h2 {
-  font-size: 30px;
+  font-size: 29px;
   color: white;
-  line-height: 50px;
+  line-height: 40px;
   letter-spacing: 0.4px;
   /* font-family: "Poppins", sans-serif; */
 }
@@ -801,23 +812,166 @@ a {
 
 .sec-testimoni {
   /* border: 1px solid black; */
-  height: 500px;
+  background-color: white;
+  height: 550px;
   padding: 50px 0;
+  margin-bottom: 100px;
 }
 .sec-testimoni h2 {
+  margin-bottom: 20px;
   font-size: 25px;
   /* border: 1px solid green; */
   text-align: center;
 }
-.sec-testimoni p {
+.sec-testimoni .p-testimoni {
   width: 45%;
   /* border: 1px solid red; */
   text-align: center;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.4px;
+  margin-bottom: 40px;
+  line-height: 25px;
+}
+.sec-testimoni p {
+  width: 45%;
+  /* border: 1px solid red; */
+  text-align: left;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
   margin: 0 auto;
+  line-height: 25px;
 }
 
 /* --------------------------------------------------------- */
 /* END OF TESTIMONI */
+
+/* FOOTER */
+/* --------------------------------------------------------- */
+
+.sec-footer {
+  /* border: 1px solid red; */
+  height: 550px;
+  background-color: #2f61d7;
+  padding: 50px 100px;
+}
+
+.sec-footer .cont-footer {
+  /* border: 1px solid yellow; */
+  display: flex;
+  height: 400px;
+}
+
+.footer1 {
+  /* border: 1px solid white; */
+  width: 25%;
+  padding: 30px 0 30px 30px;
+}
+.footer1 img {
+  margin-top: 30px;
+  width: 50%;
+  margin-bottom: 30px;
+}
+.footer1 p {
+  /* border: 1px solid white; */
+  color: white;
+  letter-spacing: 0.4px;
+}
+
+.footer2 {
+  /* border: 1px solid white; */
+  width: 20%;
+  padding: 30px;
+  margin-left: 50px;
+}
+
+.footer2 h4 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.footer2 p {
+  color: white;
+}
+
+.footer2 .p-footer {
+  margin-top: 0px;
+  color: white;
+  letter-spacing: 0.4px;
+}
+
+.footer3 {
+  /* border: 1px solid white; */
+  width: 20%;
+  padding: 30px;
+  margin-left: 30px;
+}
+
+.footer3 h4 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.footer3 p {
+  color: white;
+}
+
+.footer3 .p-footer {
+  margin-top: 0px;
+  color: white;
+  letter-spacing: 0.4px;
+}
+
+.footer4 {
+  /* border: 1px solid white; */
+  width: 30%;
+  padding: 30px;
+  margin-left: 40px;
+}
+
+.footer4 h4 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.footer4 p {
+  color: white;
+  letter-spacing: 0.4px;
+}
+
+.footer4 .p-footer {
+  margin-top: 0px;
+  color: white;
+}
+
+.tomb-foot {
+  margin-top: 30px;
+}
+
+.tombol-footer {
+  border: 2px solid white;
+  color: white;
+}
+.tombol-footer:hover {
+  border: 2px solid white;
+  background-color: #04a784;
+  color: white;
+}
+
+.copyright {
+  /* border: 1px solid white; */
+}
+
+.copyright p {
+  color: white;
+  letter-spacing: 0.4px;
+}
+/* --------------------------------------------------------- */
+/* END OF FOOTER */
