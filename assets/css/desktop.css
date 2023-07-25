@@ -1,0 +1,70 @@
+@media screen and (max-width: 1024px) {
+  /* NAVIGASI */
+  .nav-link {
+    font-size: 13px;
+  }
+  /* END OF HEADER */
+
+  /* HEADER */
+  .tombol-header {
+    width: 350px;
+    /* border: 1px solid black; */
+  }
+
+  .tombol-header1 {
+    width: 130px;
+  }
+
+  .tombol-header2 {
+    width: 170px;
+  }
+
+  /* END OF HEADER */
+
+  /* CONTENT */
+
+  .kotak1 {
+    height: auto;
+    /* border: 1px solid black; */
+  }
+
+  .sub-kotak1 {
+    border: 1px solid rgb(243, 243, 243);
+    height: auto;
+  }
+
+  .sub-kotak2 {
+    border: 1px solid rgb(243, 243, 243);
+    height: auto;
+  }
+
+  .kotak2 {
+    height: auto;
+    /* border: 1px solid black; */
+  }
+
+  .sub-kotak3 {
+    border: 1px solid rgb(243, 243, 243);
+    height: auto;
+  }
+
+  .sub-kotak4 {
+    border: 1px solid rgb(243, 243, 243);
+    height: auto;
+  }
+
+  .sec-content1 {
+    height: auto;
+    /* border: 1px solid black; */
+  }
+
+  .icon-kotak {
+    width: 23%;
+  }
+
+  .sec-content {
+    /* border: 1px solid black; */
+  }
+
+  /* END OF CONTENT */
+}
