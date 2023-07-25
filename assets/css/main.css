@@ -961,7 +961,8 @@ a {
 }
 .tombol-footer:hover {
   border: 2px solid white;
-  background-color: #04a784;
+  /* background-color: #04a784; */
+  background-color: #f29538;
   color: white;
 }
 
